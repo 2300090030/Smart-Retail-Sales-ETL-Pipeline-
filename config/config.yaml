@@ -1,0 +1,33 @@
+project:
+  name: "Smart Retail Sales Data Engineering Pipeline"
+  version: "1.0.0"
+
+paths:
+  raw_data_dir: "data/raw"
+  processed_data_dir: "data/processed"
+  mock_api_dir: "data/mock_api"
+  database_dir: "data/database"
+
+database:
+  sqlite_db_path: "data/database/retail_dw.db"
+  mysql:
+    host: "localhost"
+    port: 3306
+    user: "retail_user"
+    password: "retail_password"
+    db_name: "smart_retail_dw"
+  postgres:
+    host: "localhost"
+    port: 5432
+    user: "retail_user"
+    password: "retail_password"
+    db_name: "smart_retail_dw"
+
+spark:
+  app_name: "SmartRetailSparkETL"
+  master: "local[*]"
+  log_level: "WARN"
+
+data_quality:
+  min_rows_expected: 10
+  null_threshold_pct: 0.05

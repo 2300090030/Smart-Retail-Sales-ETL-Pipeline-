@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  postgres_dw:
+    image: postgres:15-alpine
+    container_name: retail_postgres_dw
+    environment:
+      POSTGRES_USER: retail_user
+      POSTGRES_PASSWORD: retail_password
+      POSTGRES_DB: smart_retail_dw
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ../database/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U retail_user -d smart_retail_dw"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  dashboard_app:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: retail_web_dashboard
+    ports:
+      - "8501:8501"
+    environment:
+      - DB_HOST=postgres_dw
+      - DB_PORT=5432
+      - DB_NAME=smart_retail_dw
+      - DB_USER=retail_user
+      - DB_PASSWORD=retail_password
+    depends_on:
+      postgres_dw:
+        condition: service_healthy
+    volumes:
+      - ../data:/app/data
+
+volumes:
+  postgres_data:

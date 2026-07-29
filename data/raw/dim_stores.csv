@@ -1,0 +1,16 @@
+store_id,store_name,city,region,square_feet,opened_date
+STR-100,Smart Retail Hyderabad Hub,Hyderabad,South,27363,2018-07-18
+STR-101,Smart Retail Pune Hub,Pune,West,61438,2020-05-17
+STR-102,Smart Retail Pune Hub,Pune,West,76213,2022-02-02
+STR-103,Smart Retail Mumbai Hub,Mumbai,West,27899,2018-05-05
+STR-104,Smart Retail Pune Hub,Pune,West,59473,2018-08-12
+STR-105,Smart Retail Hyderabad Hub,Hyderabad,South,40112,2019-01-25
+STR-106,Smart Retail Ahmedabad Hub,Ahmedabad,West,33373,2020-05-14
+STR-107,Smart Retail Bengaluru Hub,Bengaluru,South,51509,2020-08-05
+STR-108,Smart Retail Hyderabad Hub,Hyderabad,South,24880,2020-06-26
+STR-109,Smart Retail Delhi Hub,Delhi,North,21630,2021-08-28
+STR-110,Smart Retail Mumbai Hub,Mumbai,West,27224,2019-04-30
+STR-111,Smart Retail Bengaluru Hub,Bengaluru,South,68269,2020-09-21
+STR-112,Smart Retail Ahmedabad Hub,Ahmedabad,West,43016,2020-04-01
+STR-113,Smart Retail Mumbai Hub,Mumbai,West,36579,2020-02-16
+STR-114,Smart Retail Mumbai Hub,Mumbai,West,66173,2019-06-28

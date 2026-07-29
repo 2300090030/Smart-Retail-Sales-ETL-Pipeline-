@@ -1,0 +1,51 @@
+product_id,product_name,category,unit_price,cost_price,supplier
+PRD-1000,Electronics Item 1000,Electronics,1111.79,681.81,Supplier 4
+PRD-1001,Clothing Item 1001,Clothing,18543.28,13084.9,Supplier 9
+PRD-1002,Electronics Item 1002,Electronics,14966.66,8341.07,Supplier 2
+PRD-1003,Clothing Item 1003,Clothing,6199.42,4268.08,Supplier 9
+PRD-1004,Clothing Item 1004,Clothing,18042.2,12833.5,Supplier 7
+PRD-1005,Clothing Item 1005,Clothing,11505.07,7063.93,Supplier 1
+PRD-1006,Clothing Item 1006,Clothing,17604.11,11059.92,Supplier 3
+PRD-1007,Clothing Item 1007,Clothing,23951.68,15027.69,Supplier 2
+PRD-1008,Beauty & Care Item 1008,Beauty & Care,2868.65,2136.93,Supplier 10
+PRD-1009,Home & Kitchen Item 1009,Home & Kitchen,20274.45,14553.78,Supplier 9
+PRD-1010,Electronics Item 1010,Electronics,24341.31,15506.95,Supplier 9
+PRD-1011,Home & Kitchen Item 1011,Home & Kitchen,20820.24,14413.01,Supplier 6
+PRD-1012,Sports & Outdoors Item 1012,Sports & Outdoors,5210.26,2949.0,Supplier 4
+PRD-1013,Home & Kitchen Item 1013,Home & Kitchen,24637.91,18397.7,Supplier 2
+PRD-1014,Beauty & Care Item 1014,Beauty & Care,7309.63,5089.02,Supplier 6
+PRD-1015,Clothing Item 1015,Clothing,9568.8,5723.93,Supplier 5
+PRD-1016,Electronics Item 1016,Electronics,15423.32,9089.92,Supplier 4
+PRD-1017,Clothing Item 1017,Clothing,11824.84,7237.84,Supplier 9
+PRD-1018,Clothing Item 1018,Clothing,17272.73,12848.42,Supplier 1
+PRD-1019,Clothing Item 1019,Clothing,20633.99,15169.3,Supplier 7
+PRD-1020,Home & Kitchen Item 1020,Home & Kitchen,2120.69,1611.77,Supplier 10
+PRD-1021,Home & Kitchen Item 1021,Home & Kitchen,5708.56,3795.18,Supplier 8
+PRD-1022,Clothing Item 1022,Clothing,6988.83,4240.29,Supplier 9
+PRD-1023,Sports & Outdoors Item 1023,Sports & Outdoors,6936.43,4747.67,Supplier 10
+PRD-1024,Beauty & Care Item 1024,Beauty & Care,9368.27,7301.49,Supplier 3
+PRD-1025,Sports & Outdoors Item 1025,Sports & Outdoors,12590.63,9113.47,Supplier 2
+PRD-1026,Clothing Item 1026,Clothing,15872.06,11621.18,Supplier 7
+PRD-1027,Sports & Outdoors Item 1027,Sports & Outdoors,2055.49,1310.93,Supplier 8
+PRD-1028,Sports & Outdoors Item 1028,Sports & Outdoors,6658.9,4509.69,Supplier 1
+PRD-1029,Electronics Item 1029,Electronics,17201.59,11585.33,Supplier 5
+PRD-1030,Home & Kitchen Item 1030,Home & Kitchen,3232.14,2100.88,Supplier 8
+PRD-1031,Electronics Item 1031,Electronics,23868.44,17935.85,Supplier 5
+PRD-1032,Sports & Outdoors Item 1032,Sports & Outdoors,19167.84,12780.48,Supplier 2
+PRD-1033,Home & Kitchen Item 1033,Home & Kitchen,21120.74,14082.52,Supplier 4
+PRD-1034,Clothing Item 1034,Clothing,9660.26,5672.08,Supplier 9
+PRD-1035,Electronics Item 1035,Electronics,15173.74,10050.77,Supplier 2
+PRD-1036,Home & Kitchen Item 1036,Home & Kitchen,22028.56,16329.4,Supplier 5
+PRD-1037,Clothing Item 1037,Clothing,1918.22,1442.39,Supplier 2
+PRD-1038,Electronics Item 1038,Electronics,18431.47,13596.63,Supplier 9
+PRD-1039,Clothing Item 1039,Clothing,3644.72,2403.02,Supplier 9
+PRD-1040,Clothing Item 1040,Clothing,6993.15,5249.48,Supplier 7
+PRD-1041,Clothing Item 1041,Clothing,23258.31,16832.29,Supplier 4
+PRD-1042,Home & Kitchen Item 1042,Home & Kitchen,10274.71,7238.41,Supplier 6
+PRD-1043,Beauty & Care Item 1043,Beauty & Care,22540.44,14737.88,Supplier 4
+PRD-1044,Clothing Item 1044,Clothing,2067.7,1147.24,Supplier 9
+PRD-1045,Clothing Item 1045,Clothing,14916.37,8228.67,Supplier 1
+PRD-1046,Clothing Item 1046,Clothing,2150.38,1198.25,Supplier 6
+PRD-1047,Electronics Item 1047,Electronics,13096.34,8041.8,Supplier 8
+PRD-1048,Clothing Item 1048,Clothing,13710.77,9822.0,Supplier 10
+PRD-1049,Sports & Outdoors Item 1049,Sports & Outdoors,12079.91,8823.92,Supplier 7

@@ -1,0 +1,41 @@
+// =========================================================================
+// Power BI DAX Measures for Smart Retail Sales Analytics Dashboard
+// =========================================================================
+
+// 1. Total Revenue
+Total Revenue = SUM(fact_sales[calculated_total])
+
+// 2. Total Cost
+Total Cost = SUM(fact_sales[total_cost])
+
+// 3. Gross Profit
+Gross Profit = SUM(fact_sales[gross_profit])
+
+// 4. Gross Profit Margin %
+Gross Profit Margin % = DIVIDE([Gross Profit], [Total Revenue], 0)
+
+// 5. Total Transactions / Order Count
+Total Orders = COUNTROWS(fact_sales)
+
+// 6. Average Order Value (AOV)
+Average Order Value = DIVIDE([Total Revenue], [Total Orders], 0)
+
+// 7. Total Units Sold
+Total Units Sold = SUM(fact_sales[quantity])
+
+// 8. Year-to-Date (YTD) Revenue
+YTD Revenue = TOTALYTD([Total Revenue], dim_date[Date])
+
+// 9. Prior Year Revenue (YoY Comparison)
+Prior Year Revenue = CALCULATE([Total Revenue], SAMEPERIODLASTYEAR(dim_date[Date]))
+
+// 10. Year-over-Year (YoY) Revenue Growth %
+YoY Revenue Growth % = 
+VAR PrevYear = [Prior Year Revenue]
+RETURN DIVIDE([Total Revenue] - PrevYear, PrevYear, 0)
+
+// 11. Average Units per Transaction
+Avg Units per Order = DIVIDE([Total Units Sold], [Total Orders], 0)
+
+// 12. Top Category Revenue Contribution %
+Category Revenue % = DIVIDE([Total Revenue], CALCULATE([Total Revenue], ALL(dim_products[category])), 0)

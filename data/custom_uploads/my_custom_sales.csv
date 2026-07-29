@@ -1,0 +1,3 @@
+order_id,date,store,cust_id,sku,qty,price,sales_channel
+MY-TXN-001,2026-07-29 10:00:00,STR-101,CUST-5001,PRD-1000,3,150.00,Online
+MY-TXN-002,2026-07-29 11:30:00,STR-102,CUST-5002,PRD-1001,2,299.99,In-Store
